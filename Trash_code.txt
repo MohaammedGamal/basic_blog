@@ -1,0 +1,15 @@
+<p><%= Text1 %></p>
+<p><%= Text2 %></p>
+<p><%= Text3 %></p>
+
+<% for (i = 0; 1 <= length(Posts); i++) { %>
+  <p><%= Posts[i] =></p>
+<% } %>
+
+<% console.log(Posts.Title); %>
+
+<% for (var i = 0; i < Posts.length; i++) { %>
+  <% console.log(Posts[i].Title) %>
+<% } %>
+
+(Post) => console.log(Post.Title)
